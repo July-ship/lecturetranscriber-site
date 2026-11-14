@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LectureTranscriber - Запись и расшифровка лекций</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #24344b;
+      line-height: 1.7;
+    }
+    header {
+      background: #19365b;
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 42px;
+      margin: 0 0 12px;
+    }
+    header p {
+      font-size: 19px;
+      margin: 0;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      background: white;
+      border-radius: 14px;
+      padding: 30px;
+      margin-bottom: 22px;
+      box-shadow: 0 3px 16px rgba(0,0,0,0.05);
+    }
+    h2 { color: #19365b; }
+    a { color: #1767ba; }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: #59677a;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>LectureTranscriber</h1>
+  <p>Запись и автоматическая расшифровка онлайн-лекций</p>
+</header>
+
+<main>
+  <section>
+    <h2>О программе</h2>
+    <p>
+      LectureTranscriber - приложение для Windows,
+      предназначенное для записи звука компьютера
+      и преобразования речи в текст.
+    </p>
+    <p>
+      Программа помогает сохранять содержание лекций,
+      вебинаров и онлайн-встреч в виде текстовых
+      документов для последующего изучения.
+    </p>
+  </section>
+
+  <section>
+    <h2>Возможности</h2>
+    <ul>
+      <li>Запись звука, воспроизводимого на компьютере.</li>
+      <li>Локальная расшифровка с помощью Whisper.</li>
+      <li>Онлайн-расшифровка через AssemblyAI с разделением по спикерам.</li>
+      <li>Сохранение результатов в форматах TXT и DOCX.</li>
+      <li>Загрузка Word-документов на Google Диск с разрешения пользователя.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Работа с Google Диском</h2>
+    <p>
+      LectureTranscriber использует Google Drive API
+      для сохранения созданных документов в Google Диске
+      пользователя.
+    </p>
+    <p>
+      Приложение запрашивает разрешение на работу
+      только с файлами Google Диска,
+      созданными или открытыми через приложение.
+    </p>
+    <p>
+      Пользователь самостоятельно разрешает доступ
+      через стандартное окно авторизации Google.
+    </p>
+  </section>
+
+  <section>
+    <h2>Конфиденциальность</h2>
+    <p>
+      При использовании онлайн-расшифровки аудиозаписи
+      передаются сервису AssemblyAI для обработки.
+      При локальной расшифровке Whisper обработка
+      выполняется на компьютере пользователя.
+    </p>
+    <p>
+      Подробнее об обработке данных будет указано
+      в политике конфиденциальности.
+    </p>
+  </section>
+
+  <section>
+    <h2>Документы</h2>
+    <p>
+      <a href="privacy.html">Политика конфиденциальности</a>
+    </p>
+    <p>
+      <a href="terms.html">Условия использования</a>
+    </p>
+  </section>
+</main>
+
+<footer>
+  <p>LectureTranscriber</p>
+</footer>
+
+</body>
+</html>
